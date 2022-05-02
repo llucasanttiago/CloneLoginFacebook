@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Tela de login do Facebook</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="center">
+			<div class="logo">
+				<h2>Facebook</h2>
+			</div><!--Logo-->
+			<form method="post" class="form-login">
+				<div class="form-element-email">
+					<p>E-mail ou telefone:</p>
+					<input type="email">
+				</div><!--Form-element-->
+
+				<div class="form-element-password">
+					<p>Senha:</p>
+					<input type="password">
+					<div class="esqueceu-conta">
+						<a href="#">Esqueceu a conta?</a>
+					</div><!--Esqueceu-conta-->
+				</div><!--Form-element-->
+
+				<div class="form-element-entrar">
+					<input type="submit" name="acao" value="Entrar">
+				</div><!--Form-element-->
+			</form><!--form-login-->
+			<div class="clear"></div>
+		</div><!--Center-->
+	</header>
+
+	<section class="main">
+		<div class="center">
+			<div class="title-img">
+				<p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+			</div><!--Title-img-->
+
+			<div class="img-pessoas">
+				<img src="images/img1.png">
+			</div><!--Img-pessoas-->
+
+			<div class="abrir-conta">
+				<h2>Abra sua conta</h2>
+				<h3>É gratuito e sempre será.</h3>
+
+				<form class="criar-conta">
+					<div class="w50">
+						<input placeholder="Nome" type="text">
+					</div><!--w50-->
+
+					<div class="w50">
+						<input placeholder="Sobrenome" type="text">
+					</div><!--w50-->
+
+					<div class="w100">
+						<input placeholder="E-mail" type="email">
+					</div><!--w100-->
+
+					<div class="w100">
+						<input placeholder="Senha" type="password">
+					</div><!--w100-->
+
+					<div class="w100">
+						<h2>Data de Nascimento</h2>
+						<select name="nascimento-dia" class="nascimento">
+							<?php 
+								for($i = 1; $i <= 31; $i++){
+							?>
+							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+						<?php } ?>
+						</select>
+						<select name="nascimento-mes" class="nascimento">
+							<option value="0">Janeiro</option>
+							<option value="1">Fevereiro</option>
+							<option value="2">Março</option>
+							<option value="3">Abril</option>
+							<option value="4">Maio</option>
+							<option value="5">Junho</option>
+							<option value="6">Julho</option>
+							<option value="7">Agosto</option>
+							<option value="8">Setembro</option>
+							<option value="9">Outubro</option>
+							<option value="10">Novembro</option>
+							<option value="11">Dezembro</option>
+						</select>
+						<select name="nascimento-ano" class="nascimento">
+							<?php 
+								for($i = 1922; $i <= 2004; $i++){
+							?>
+							<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
+						<?php } ?>
+						</select>
+						<div class="clear"></div>
+					</div><!--w100-->
+
+					<div class="w100">
+						<div class="input-radio">
+							<input type="radio" name="sexo" value="masculino">
+							<h2>Masculino</h2>
+						</div><!--Input-radio-->
+
+						<div class="input-radio">
+							<input type="radio" name="sexo" value="feminino">
+							<h2>Feminino</h2>
+						</div><!--Input-radio-->
+					<div class="clear"></div>
+					</div><!--w100-->					
+
+					<div class="w100">
+						<input type="submit" name="acao" value="Cadastrar!">
+					</div><!--w100-->
+
+					<div class="clear"></div>
+				</form><!--Criar-conta-->
+			</div><!--Abrir-conta-->
+			<div class="clear"></div>
+		</div><!--Center-->
+	</section><!--Main-->
+
+	<section class="linguas">
+		<div class="center">
+			<a class="selected-lingua" href="">Português (Brasil)</a>
+			<a href="">English (US)</a>
+			<a href="">Español</a>
+			<a href="">Italiano</a>
+			<a href="">Deutsch</a>
+			<a href="">العربية </a>
+			<a href="">हिन्दी</a>
+			<a href="">中文(简体)</a>
+			<a href="">日本語</a>
+		</div><!--Center-->
+	</section><!--Linguas-->
+
+	<section class="links-variados">
+		<div class="center">
+			<a href="">Cadastre-se</a>
+			<a href="">Entrar</a>
+			<a href="">Messenger</a>
+			<a href="">Facebook Lite</a>
+			<a href="">Celular</a>
+			<a href="">اEncontrar amigos</a>
+			<a href="">Pessoas</a>
+			<a href="">Páginas</a>
+			<a href="">Locais</a>
+			<a href="">Jogos</a>
+			<a href="">Locais</a>
+			<a href="">Marketplace</a>
+			<a href="">Videos</a>
+			<a href="">Grupos</a>
+			<a href="">اReceitas</a>
+			<a href="">Esportes</a>
+			<a href="">Looks</a>
+			<a href="">Moments</a>
+			<a href="">Instagram</a>
+			<a href="">Local</a>
+			<a href="">Sobre</a>
+			<a href="">Criar anuncio</a>
+			<a href="">Criar páginas</a>
+			<a href="">Desenvolvedores</a>
+			<a href="">Carreras</a>
+			<a href="">Privacidade</a>
+			<a href="">Cookies</a>
+			<a href="">Opções de anúncios</a>
+			<a href="">Temas</a>
+			<a href="">Ajuda</a>
+
+			<div class="facebook-original">
+				<p>Facebook ® 2022</p>
+			</div>
+		</div><!--links-variados-->
+	</section><!--Linguas-->
+</body>
+</html>
+
