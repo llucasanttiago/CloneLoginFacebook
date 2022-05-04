@@ -242,3 +242,46 @@ section.links-variados .center{
 	font-size: 11px;
 }
 
+@media screen and (max-width: 768px){
+	.logo{
+		float: :none;
+		width: 100%;
+		text-align: center;
+	}
+	form.form-login{
+		float: none;
+		width: 100%;
+		display: inline-block;
+		margin-top: 17px;
+		text-align: center;
+	}
+	.form-login .form-element-email,.form-element-password,.form-element-entrar{
+		display: block;
+	}
+
+	.form-element-email input[type=email],.form-element-password input[type=password]{
+		width: 100%;
+		max-width: 400px;
+	}
+	.form-element-email{
+		position: relative;
+		top: -6px;
+	}
+
+	.form-element-entrar{
+		position: relative;
+		top: 4px;
+	}
+	.esqueceu-conta a{
+		display: none;
+	}
+	.img-pessoas,.title-img{
+		display: none;
+	}
+
+	.abrir-conta{
+		margin-top: -10px;
+		width: 100%;
+	}
+}
+

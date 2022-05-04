@@ -2,7 +2,9 @@
 <html lang="pt-BR">
 <head>
 	<title>Tela de login do Facebook</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
